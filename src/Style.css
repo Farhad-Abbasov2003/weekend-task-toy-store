@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.nav-up {
+  background-color: #a5c926;
+}
+
+.nav-down {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.right .span-2 {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 50%;
+  background-color: #a5c926;
+}
+
+.center {
+  height: 80vh;
+  background-position: center;
+  background-size: 100%;
+  background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg");
+}
+.center h5 {
+  color: #a5c926;
+}
+.center button {
+  background-color: #a5c926;
+  border-radius: 3rem;
+}
+
+.cards {
+  display: inline-block;
+  background-color: #f8f8f8;
+}
+.cards .card-1 {
+  background-color: #ffc12c;
+  border-radius: 1rem;
+}
+.cards .card-1 button {
+  border-radius: 3rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1.5rem;
+  transition: 0.3s;
+}
+.cards .card-1 button:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cards .card-2 {
+  background-color: #fb416b;
+  border-radius: 1rem;
+}
+.cards .card-2 button {
+  border-radius: 3rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1.5em;
+  transition: 0.3s;
+}
+.cards .card-2 button:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.animals {
+  padding-bottom: 5rem;
+  background-color: #f8f8f8;
+}
+.animals .title button {
+  transition: 0.3s;
+  border-bottom: #a5c926 1px solid;
+}
+.animals .title button:hover {
+  border-bottom: #a5c926 3px solid;
+}
+.animals .line {
+  background-color: #eaeaea;
+  height: 2px;
+}
+.animals .card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.animals .card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.05);
+}
+.animals .card h5 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.animals .card button {
+  background-color: #a5c926;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+.wooden-toys {
+  background-color: #f8f8f8;
+}
+.wooden-toys .title button {
+  transition: 0.3s;
+  border-bottom: #a5c926 1px solid;
+}
+.wooden-toys .title button:hover {
+  border-bottom: #a5c926 3px solid;
+}
+.wooden-toys .card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.wooden-toys .card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.05);
+}
+.wooden-toys .card h5 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.wooden-toys .card button {
+  background-color: #a5c926;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+.our-story {
+  background-image: url("https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-story .text-our-story .icon {
+  color: #fff;
+  padding: 4rem;
+  font-size: 10rem;
+}
+
+.madefor {
+  background-color: #f8f8f8;
+}
+.madefor h6 {
+  color: #a5c926;
+  font-weight: 600;
+}
+.madefor h3 {
+  font-size: 2rem;
+}
+
+.madefor-down {
+  background-color: #f8f8f8;
+}
+.madefor-down .down .line {
+  background: #a5c926;
+  height: 2px;
+  width: 15%;
+}
+.madefor-down .down img {
+  width: 30rem;
+  border-radius: 1.5rem;
+}
+.madefor-down .down .text p {
+  color: #a09e9b;
+}
+.madefor-down .down .text button {
+  text-transform: uppercase;
+  color: white;
+  background-color: #a5c926;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+.madefor-down .down .text button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.search .left {
+  font-weight: 600;
+}
+.search .left span {
+  color: #a5c926;
+}
+.search .icon {
+  background-color: #a5c926;
+  padding: 1rem;
+  font-size: 5rem;
+  border-radius: 50%;
+  color: white;
+  margin-right: 1rem;
+}
+.search .right input {
+  border: #a09e9b 1px solid;
+  background-color: #f8f8f8;
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  transition: 0.3s;
+}
+.search .right input:hover {
+  background-color: #fff;
+}
+.search .right input::-moz-placeholder {
+  font-size: 0.9rem;
+}
+.search .right input::placeholder {
+  font-size: 0.9rem;
+}
+.search .right button {
+  background: #a5c926;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+.search .right button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.elasticthemes {
+  background: #f8f8f8;
+  padding-bottom: 8rem;
+}
+.elasticthemes .images img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.elasticthemes .images img:hover {
+  transform: scale(1.05);
+}
+.elasticthemes h6 {
+  color: #a5c926;
+}
+.elasticthemes button {
+  background-color: #a5c926;
+  padding: 1rem 2rem;
+  font-weight: 550;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  color: white;
+  transition: 0.3s;
+}
+.elasticthemes button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer {
+  background: #a5c926;
+}
+.footer .up {
+  border-bottom: 1px solid #bad658;
+  margin-bottom: 1rem;
+}
+.footer .up .medium ul li {
+  cursor: pointer;
+}
+.footer .up .medium ul li:hover {
+  text-decoration: underline;
+}
+.footer .up .right li {
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.footer .up .right li:hover {
+  background: #b3e208;
+}
+
+.up input {
+  border: 1px solid #eaeaea;
+}
+.up input::-moz-placeholder {
+  font-size: 0.9rem;
+}
+.up input::placeholder {
+  font-size: 0.9rem;
+}
+
+.alltoys .title ul li {
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.alltoys .title ul li:hover {
+  text-decoration: underline;
+}
+.alltoys .title ul li button {
+  background: #a5c926;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+}
+.alltoys .line {
+  background-color: #e7e7e7;
+  height: 3px;
+}
+.alltoys .line .icline {
+  background: #a5c926;
+  width: 15%;
+  height: 3px;
+}
+.alltoys .cards .card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.alltoys .cards .card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.alltoys .cards .card button {
+  background: #a5c926;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: white;
+}
+.alltoys .search-2 {
+  background-color: #fff;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2rem;
+}
+.alltoys .search-2 .left .icon {
+  background: #a5c926;
+  padding: 1rem;
+  font-size: 4.5rem;
+  border-radius: 50%;
+  color: white;
+}
+.alltoys .search-2 .right button {
+  background: #a5c926;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+.alltoys .search-2 .right button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.alltoys .search-2 .right input {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 1rem 2rem;
+  background: #f8f8f8;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+.alltoys .search-2 .right input:hover {
+  background-color: #fff;
+}/*# sourceMappingURL=Style.css.map */
